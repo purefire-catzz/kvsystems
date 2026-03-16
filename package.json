@@ -1,0 +1,20 @@
+{
+  "name": "novisurf-kvserver",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "kvserver.js",
+  "scripts": {
+    "start": "node kvserver.js",
+    "dev": "nodemon kvserver.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
